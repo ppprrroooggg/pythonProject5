@@ -1,2 +1,4 @@
-for i in range(100):
-    pass
+import csv
+
+with open("Nothing.txt", "r") as file:
+    data = file.readlines()
